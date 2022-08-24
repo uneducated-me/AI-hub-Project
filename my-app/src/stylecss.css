@@ -1,0 +1,88 @@
+input {
+    background-color: black;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom-color: white;
+    border-bottom-width: 1px;
+    color: white;
+    height: 40px;
+ 
+}
+a{
+    text-decoration-line : none;
+}
+
+body {
+    background-color: black;
+    color: #e9ecef;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+h1{
+    line-height:normal;
+    /* font-size:90px; */
+}
+/* 
+.canvas{
+    border-style: solid;
+    /* background-image:url('https://images.unsplash.com/photo-1513682121497-80211f36a7d3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=388&q=80'); */
+    /* width : 388;
+    height : 581; */
+    /* box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08); */
+    /* background-color: white;
+    width: 500px;
+    height: 500px;
+     */
+/* } */
+
+#fileInput{
+    width: 50%;
+    background-color: black;
+    color: #e9ecef;
+}
+
+.blank{
+    padding:3%;
+}
+.login{
+    padding:3%;
+}
+.con{
+    display : inline-flex;
+    flex-direction: row;
+    padding : 1%;
+}
+
+.loginCon{
+    display : inline-flex;
+    flex-direction: column;
+    padding : 1%;
+}
+
+.container{
+    position:relative;
+    
+    top:100px; 
+}
+
+.noInfo{
+    border-width : 3px 3px 3px 3px;
+    border-style: solid;
+    border-color: red;
+
+}
+
+.selected{
+    color : rgb(223, 39, 39)
+}
+
+.center{
+    /* vertical-align: top; */
+    margin: auto;
+    text-align: center; 
+}
+
+.short{
+    width: 500px
+}
